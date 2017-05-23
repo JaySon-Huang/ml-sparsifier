@@ -48,17 +48,17 @@ Notes:
 Options
 =======
 
---weak: retain weak edges
---strong: Retain strong edges
---normalize: normalize algebraic distance by product of degrees.
+--weak: retain weak edges  
+--strong: Retain strong edges  
+--normalize: normalize algebraic distance by product of degrees.  
 
--i - path of input graph
--n - number of nodes
---gname - shortname for graph.
---zero-index - index of first node starts at 0.
---permute - random shuffle node ordering
--r -  interpolation order. Default 1.
---delim - delimeter of input file. Only space or tab allowed.
+-i - path of input graph  
+-n - number of nodes  
+--gname - shortname for graph.  
+--zero-index - index of first node starts at 0.  
+--permute - random shuffle node ordering  
+-r -  interpolation order. Default 1.  
+--delim - delimeter of input file. Only space or tab allowed.  
 
  See Main.cpp for all available options.
 
